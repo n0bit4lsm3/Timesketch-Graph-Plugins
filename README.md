@@ -8,7 +8,7 @@ Firstly, we need to find a folder of Timesketch server (I deployed it by Docker)
 
 Then, copy 3 plugin files into the graph folder.
 
-Finally, import below script into __init__.py file in the same folder.
+Finally, import below script into **\_\_init\_\_.py** file in the same folder.
 
     from timesketch.lib.graphs import win_logins
     from timesketch.lib.graphs import win_services
